@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Listas</title>
+
+	<style>
+		header {
+
+			display: block;
+			text-align: left;
+			margin-bottom: 6px;
+			padding-bottom: 12px;
+			border-bottom: 3px solid;
+
+		}
+
+		section {
+			display: block;
+			font-size: 20px;
+		}
+
+		.titulo {
+			font-size: 24px;
+			font-weight: bold;
+
+		}
+
+		.subtitulo {
+		  	font-size: 22px;
+		  	font-style: italic;
+
+		  }
+
+		  #lista-ordenada {
+		  	  font-size: 20px;
+
+		  }
+
+		  .primeira-lista {
+		  	font-size: 20px;
+		  	list-style : disc;
+		  	margin-bottom: 20px;
+        padding-bottom: 16px;	
+	      border-bottom: 2px dotted;
+		  }
+
+		  .segunda-lista {
+		  	font-size: 20px;
+		  	list-style : square;
+		  	 margin-bottom: 20px;
+         padding-bottom: 16px;	
+	       border-bottom: 2px dotted;
+
+		  }
+		  .terceira-lista {
+		  	font-size: 20px;
+		  	margin-bottom: 20px;
+        padding-bottom: 16px;
+     
+		  }
+
+		
+	</style>
+</head>
+
+<body>
+	<header>
+	<span class="titulo">Curso de WEB</span></br>
+	<span class="subtitulo">Ementa</span>
+
+</header>
+<section>
+	<ol id="lista-ordenada">
+		<li>Introdução a Internet</li>
+		<ul class="primeira-lista" >
+			<li>O que é a Internet</li>
+			<li>Como se conectar a internet</li>
+			<li>Quanto custa criar uma home page.</li>
+
+
+		</ul>
+
+		<li>Conceitos básicos da linguagem html</li>
+		<ul class="segunda-lista">
+			<li>Comandos básicos</li>
+			<li>Criando links com outras páginas</li>
+			<li>Formatando o texto</li>
+	
+		</ul>
+
+		<li>Tópicos avançados da linguagem html</li>
+		<ul class="terceira-lista">
+			<li>Tabelas</li>
+			<li>Formulários</li>
+			<li>Mapas de imagem</li>
+	
+		</ul>
+	</ol>
+	</section>
+</body>
+</html>
+
+<!--código usando apenas html
+<body>
+	<big><big>
+	<ol type="1" start="1">
+		<li>Introdução a Internet</li>
+		<ul type="disc">
+			<li>O que é a internet</li>
+			<li>Como se conectar a internet</li>
+			<li>Quanto custa criar uma home page.</li>
+
+		</ul>
+	</ol>
+	  <ol type="2" start="2">
+		<li>Conceitos básicos da linguagem html</li>
+		<ul type="square">
+			<li>Comandos básicos</li>
+			<li>Criando links com outras páginas</li>
+			<li>Formatando o texto</li>
+	
+		</ul>
+	</ol>
+      <ol type="3" start="3">
+		<li>Tópicos avançados da linguagem html</li>
+		<ul>
+			<li>Tabelas</li>
+			<li>Formulários</li>
+			<li>Mapas de imagem</li>
+	
+		</ul>
+	</ol>
+</big></big>
+
+<!-ou pode estruturar o código abrindo apenas uma tag <ol> sem especificar o "type"=ordem, e colocar a tag </br>. Como no exemplo abaixo
+	<big><big>
+	<ol>
+    <li>Introdução a Internet
+      <ul type="disc">
+	     <li>O que é a Internet</li> 
+	     <li>Como se conectar a internet</li> 
+	     <li>Quanto custa criar uma home page.</li> 
+         </ul></li>
+	<br/>
+	<li>Conceitos básicos da linguagem html 
+      <ul type="square">
+	     <li>Comandos básicos </li>
+	     <li>Criando links com outras páginas </li>
+	     <li>Formatando o texto</li> 
+         </ul></li>
+	<br/>
+    <li>Tópicos avançados da linguagem html 
+      <ul>
+	      <li>Tabelas </li>
+	      <li>Formulários</li>
+	      <li>Mapas de imagem</li>
+      </ul></li>
+</ol></big></big>
+
+</body>
+</html>-->

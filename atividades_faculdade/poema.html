@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>poema</title>
+<head>
+	<style>
+		header {
+        display: block; /*renderiza o elemento html em bloco, como parágrafos e cabeçalhos.*/
+        text-align: center; /*alinhamento de texto*/
+        font-size: 36px; /*tamanho da fonte*/
+        padding-bottom: 12px; /*define dimensões do espaçamento interno inferior(distância do elemento para sua própria borda, conforme a estrutura de box model)*/
+        margin-bottom: 6px;
+        border-bottom: 3px solid;
+
+		}
+
+    	footer {     /*rodapé*/
+    		clear: both;
+    		text-align: center;
+    		padding-top: 16px;
+    		margin-top: 12px;
+    		border-top: 3px solid;
+    		font-style: italic; /*estilo da fonte,letra*/
+    		font-size: 22px;
+
+		}
+
+		.esquerdo {
+			display: block;
+			text-align: left;
+			float: left;/*determina que um elemento deve ser retirado do seu fluxo normal e colocado ao longo do lado direito ou esquerdo*/
+			width: 100%; /*largura*/
+		}
+
+
+		.central {
+			clear: both;
+			text-align: center;
+		}
+
+
+		.direito {
+			display: block;
+			text-align: right;
+			float: right;
+			width: 100%;
+		}
+
+
+	</style>
+	</head>
+
+    <body>
+	<!--<h1 align="center">Poema</h1>código html cabeçalho com alinhamento centralizado-->
+
+	<header>
+	  Poema
+	</header>
+   <section>
+  <!--<hr size="2" width= 100% shade align="left">linha sombreada conf.html-->
+  <!--<p align="left">Nada vos oferto al&eacute;m</br> destas mortes de que me</br> alimento</p>--parágrafo alinhado á esquerda-->
+
+  <p class="esquerdo">Nada vos oferto além<br>
+      destas mortes de que me<br>
+      alimento</p>
+
+
+
+  <!--<p align="right">Caminhos n&atilde;o h&aacute; Mas os 
+  p&eacute;s na grama os </br>
+  inventar&atilde;o </br> 
+ </p> parágrafo alinhado á direita-->
+ 
+   <p class="direito">Caminhos não há Mas os<br>
+    pés na grama os<br>
+    inventarão</p>
+
+
+ <!--<p align="center">Aqui se inicia uma viagem </br>
+ clara para a encanta&ccedil;&atilde;o </br>
+ </p>parágrafo alinhado central-->
+
+  <p class="central">Aqui se inicia uma viagem<br>
+   clara para a encantação</p>
+
+<!--<p align="left">Fonte, flor em fogo, que &eacute;</br>
+ que nos espera por detr&aacute;s</br>
+ da noite?</br>
+ </p>parágrafo alinhado á esquerda-->
+
+ <p class="esquerdo">Fonte, flor em fogo, que é<br>
+  que nos espera por detrás<br>
+  da noite?</p>
+
+ <!--<p align="right">Nada vos sovino: com a</br>
+  minha incerteza vos ilumino </br>
+  ilumino </br>
+</p>-->
+
+  <p class="direito">Nada vos sovino: com a</br>
+  minha incerteza vos ilumino </br>
+  ilumino </br>
+  </p>
+
+  </section>
+
+<!--<hr size="2" width= 100% shade align="left">linha sombreada alinhada á esquerda-->
+
+<!--<p align="center"><i>Ferreira Gullar</i>
+</p>-->
+
+<footer>
+Ferreira Gullar
+</footer>
+
+</body>
+</html>

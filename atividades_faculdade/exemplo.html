@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>exemplo CSS</title>
+
+    <style> 
+
+  h1,h2 { color:blue;font-style:italic} 
+
+/*** elementos da classe aviso 
+tem aparencia especial */
+.aviso{ 
+ font-weight:bold; 
+ background-color:yellow; 
+ margin-left:1in; 
+ margin-right:2cm; 
+ border-color:red; 
+ border-width:8px; 
+ border-style:solid 
+ } 
+
+/** os tipos H1 e H2 na classe aviso estarao 
+centrados */
+.aviso h1, .aviso h2 {
+  text-align:center
+} 
+
+/* define um elemento especial 
+:ID=“P23  */
+
+  #P23 { 
+  text-align:center; 
+  text-transform:uppercase; 
+ } 
+ 
+ </style>
+
+<h1>Exemplo de folhas de estilo em cascata </h1>
+ 
+<div class=“aviso”> 
+<h2>Cuidado</h2> 
+Esteja atento! Note que chamou-se a atencao com um 
+texto em negrito e cores brilhantes. Note ainda que o 
+titulo "Cuidado" aparece centrado em italico e azul. 
+</div> 
+<p ID=“P23”> 
+Este paragrafo ficou centrado<br> 
+e em letras maiusculas.<br> 
+<span style="text-transform: none;">
+Aqui explicitamente usou-se um estilo inline para se 
+sobrepor as maiusculas. 
+</span> 
+</p> 
+
+</head>
+
+<body>
+</body>
+</html>
+ 
+
+
